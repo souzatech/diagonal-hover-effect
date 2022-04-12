@@ -1,4 +1,4 @@
-* {
+* { /*reset browser settings to default*/
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif
@@ -14,8 +14,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /*remember to specify the height of the container so the flexbox knows where is the center of it*/
 }
+
+/*main code below*/
 
 .btn {
     overflow: hidden;
